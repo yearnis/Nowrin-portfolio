@@ -62,5 +62,31 @@ span {
 .Experience {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-position: left;
+}
+
+.half1 {
+    box-shadow: 10px 10px 10px grey;
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 7%;
+    margin-right: 5%;
+    border-radius: 15px;
+}
+
+#exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#exp1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
